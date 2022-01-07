@@ -403,7 +403,7 @@ void TimeComplexityINSERTOLDSTUDENT()
     int Max = NULL;
     int Min = NULL;
     int Sum = 0;
-    for (int j = 0; j < 1; j++)
+    for (int j = 0; j < 100; j++)
     {
         Student_info old = getInforOld();
         auto start = high_resolution_clock::now();
@@ -429,7 +429,7 @@ void TimeComplexityINSERTOLDSTUDENT()
         }
         Sum += duration.count();
     }
-    int Mean = Sum / 1;
+    int Mean = Sum / 100;
     output << Min << "       " << Mean << "      " << Max << endl;
     std::cout << "Min: " << Min << endl;
     std::cout << "Mean: " << Mean << endl;
@@ -955,14 +955,7 @@ int main()
 
     //TimeComplexityCompareFile(1250);   
     //TimeComplexityCheckSecurity();
-    const char* dir1 = R"(.\DataBase\QuanLyDiemSinhVien_PHONGDAOTAO.db)";
-    const char* dir2 = R"(.\DataBase\QuanLyDiemSinhVien_GIANGVIEN.db)";
-    const char* dir3 = R"(.\DataBase\QuanLyDiemSinhVien_TRUONGKHOA.db)";
-    const char* dir4 = R"(.\DataBase\QuanLyDiemSinhVien_BOPHANXULYDIEM.db)";
-    Student_info old = getInforOld();
-    insertNewStudent(dir1, dir2, dir3, dir4, old);
     
-
     return 0;
 }
 
