@@ -1,0 +1,213 @@
+﻿  Source.cpp
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(20,31): warning C4018: '<': signed/unsigned mismatch
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(71,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(87,37): warning C4244: '=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(91,37): warning C4244: '=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(95,37): warning C4244: '=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(99,37): warning C4244: '=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(101,36): warning C4244: '+=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(148,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(163,37): warning C4244: '=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(167,37): warning C4244: '=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(171,37): warning C4244: '=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(175,37): warning C4244: '=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(177,36): warning C4244: '+=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(198,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(215,37): warning C4244: '=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(219,37): warning C4244: '=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(223,37): warning C4244: '=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(227,37): warning C4244: '=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(229,36): warning C4244: '+=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(279,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(292,33): warning C4244: '=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(296,33): warning C4244: '=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(300,33): warning C4244: '=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(304,33): warning C4244: '=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(306,36): warning C4244: '+=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(402,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(416,33): warning C4244: '=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(420,33): warning C4244: '=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(424,33): warning C4244: '=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(428,33): warning C4244: '=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(430,32): warning C4244: '+=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(512,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(526,68): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(563,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(578,33): warning C4244: '=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(582,33): warning C4244: '=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(586,33): warning C4244: '=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(590,33): warning C4244: '=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(592,32): warning C4244: '+=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(651,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(671,37): warning C4244: '=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(675,37): warning C4244: '=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(679,37): warning C4244: '=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(683,37): warning C4244: '=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(685,36): warning C4244: '+=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(897,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(914,37): warning C4244: '=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(918,37): warning C4244: '=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(922,37): warning C4244: '=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(926,37): warning C4244: '=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\Source.cpp(928,36): warning C4244: '+=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+  TimeComplexity.vcxproj -> D:\Cấu trúc dữ liệu và giải thuật\TimeComplexity-master\x64\Debug\TimeComplexity.exe
