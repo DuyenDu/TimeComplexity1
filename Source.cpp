@@ -71,9 +71,9 @@ void TimeComplexitySHA256(int n)
     srand(time(0));
     for (int i = 50; i <= n; i += 50)
     {
-        int Max = NULL;
-        int Min = NULL;
-        int Sum = 0;
+        unsigned int Max = NULL;
+        unsigned int Min = NULL;
+        unsigned long long int Sum = 0;
         for (int j = 0; j < 1000; j++)
         {
             string kq = createRandomString(i);
@@ -100,7 +100,7 @@ void TimeComplexitySHA256(int n)
             }
             Sum += duration.count();
         }
-        int Mean = Sum / 1000;
+        unsigned int Mean = Sum / 1000;
         output << i << "        " << Min << "       " << Mean << "      " << Max << endl;
         std::cout << "n: " << i << endl;
         std::cout << "Min: " << Min << endl;
@@ -148,9 +148,9 @@ void TimeComplexityMine1(int n)
     srand(time(0));
     for (int i = 50; i <= n; i+=50)
     {
-        int Max = NULL;
-        int Min = NULL;
-        int Sum = 0;
+        unsigned int Max = NULL;
+        unsigned int Min = NULL;
+        unsigned long long int Sum = 0;
         for (int j = 0; j < 100; j++)
         {
             string message = createRandomString(i);
@@ -176,7 +176,7 @@ void TimeComplexityMine1(int n)
             }
             Sum += duration.count();
         }
-        int Mean = Sum / 100;
+        unsigned int Mean = Sum / 100;
         output << i << "        " << Min << "       " << Mean << "      " << Max << endl;
         std::cout << "So luong ky tu: " << i << endl;
         std::cout << "Min: " << Min << endl;
@@ -277,9 +277,9 @@ void TimeComplexityINSERTNEWSTUDENT()
     ofstream output;
     output.open(name, ios::out);
     srand(time(0));
-    int Max = NULL;
-    int Min = NULL;
-    int Sum = 0;
+    unsigned int Max = NULL;
+    unsigned int Min = NULL;
+    unsigned long long int Sum = 0;
     for (int j = 0; j < 100; j++)
     {
         Student_info sv = getInfor();
@@ -305,13 +305,13 @@ void TimeComplexityINSERTNEWSTUDENT()
         }
             Sum += duration.count();
     }
-        int Mean = Sum / 100;
-        output << Min << "       " << Mean << "      " << Max << endl;
-        std::cout << "Min: " << Min << endl;
-        std::cout << "Mean: " << Mean << endl;
-        std::cout << "Max: " << Max << endl;
-        std::cout << "-----------------------------" << endl;
-        output.close();
+    unsigned int Mean = Sum / 100;
+    output << Min << "       " << Mean << "      " << Max << endl;
+    std::cout << "Min: " << Min << endl;
+    std::cout << "Mean: " << Mean << endl;
+    std::cout << "Max: " << Max << endl;
+    std::cout << "-----------------------------" << endl;
+    output.close();
 }
 #pragma endregion
 
@@ -400,9 +400,9 @@ void TimeComplexityINSERTOLDSTUDENT()
     ofstream output;
     output.open(name, ios::out);
     srand(time(0));
-    int Max = NULL;
-    int Min = NULL;
-    int Sum = 0;
+    unsigned int Max = NULL;
+    unsigned int Min = NULL;
+    unsigned long long int Sum = 0;
     for (int j = 0; j < 100; j++)
     {
         Student_info old = getInforOld();
@@ -429,7 +429,7 @@ void TimeComplexityINSERTOLDSTUDENT()
         }
         Sum += duration.count();
     }
-    int Mean = Sum / 100;
+    unsigned int Mean = Sum / 100;
     output << Min << "       " << Mean << "      " << Max << endl;
     std::cout << "Min: " << Min << endl;
     std::cout << "Mean: " << Mean << endl;
@@ -561,42 +561,44 @@ void TimeComplexityIsBlockChainValid()
     ofstream output;
     output.open(name, ios::out);
     srand(time(0));
-    int Max = NULL;
-    int Min = NULL;
-    int Sum = 0;
-    for (int j = 0; j < 100; j++)
+    unsigned int Max = NULL;
+    unsigned int Min = NULL;
+    unsigned long long int Sum = 0;
+    for (int i = 0; i < 100; i++)
     {
-        int n = rand() % 100;
         Student_info sv;
-        sv.code = codeChain[n];
-        auto start = high_resolution_clock::now();
-        isBlockChainValid(dir1, sv);
-        auto stop = high_resolution_clock::now();
-        auto duration = duration_cast<microseconds>(stop - start);
-        if (Min == NULL)
+        sv.code = codeChain[i];
+        for (int j = 0; j < 10; j++)
         {
-            Min = duration.count();
+            auto start = high_resolution_clock::now();
+            isBlockChainValid(dir1, sv);
+            auto stop = high_resolution_clock::now();
+            auto duration = duration_cast<microseconds>(stop - start);
+            if (Min == NULL)
+            {
+                Min = duration.count();
+            }
+            else if (Min > duration.count())
+            {
+                Min = duration.count();
+            }
+            if (Max == NULL)
+            {
+                Max = duration.count();
+            }
+            else if (Max < duration.count())
+            {
+                Max = duration.count();
+            }
+            Sum += duration.count();
         }
-        else if (Min > duration.count())
-        {
-            Min = duration.count();
-        }
-        if (Max == NULL)
-        {
-            Max = duration.count();
-        }
-        else if (Max < duration.count())
-        {
-            Max = duration.count();
-        }
-        Sum += duration.count();
+        unsigned int Mean = Sum / 10;
+        output << i << "      " <<  Min << "       " << Mean << "      " << Max << endl;
+        std::cout << "Min: " << Min << endl;
+        std::cout << "Mean: " << Mean << endl;
+        std::cout << "Max: " << Max << endl;
+        std::cout << "-----------------------------" << endl;
     }
-    int Mean = Sum / 100;
-    output << Min << "       " << Mean << "      " << Max << endl;
-    std::cout << "Min: " << Min << endl;
-    std::cout << "Mean: " << Mean << endl;
-    std::cout << "Max: " << Max << endl;
-    std::cout << "-----------------------------" << endl;
     output.close();
 }
 #pragma endregion
@@ -651,9 +653,9 @@ void TimeComplexityCompareFile(int n)
     srand(time(0));
     for (int i = 50; i <= n; i += 50)
     {
-        int Max = NULL;
-        int Min = NULL;
-        int Sum = 0;
+        unsigned int Max = NULL;
+        unsigned int Min = NULL;
+        unsigned long long int Sum = 0;
         for (int j = 0; j < 10; j++)
         {
             file1.open("file1.txt", ios::out);
@@ -686,7 +688,7 @@ void TimeComplexityCompareFile(int n)
             file1.close();
             file2.close();
         }
-        int Mean = Sum / 10;
+        unsigned int Mean = Sum / 10;
         output << i << "        " << Min << "       " << Mean << "      " << Max << endl;
         std::cout << "So luong ky tu: " << i << endl;
         std::cout << "Min: " << Min << endl;
@@ -897,9 +899,9 @@ void TimeComplexityCheckSecurity()
     srand(time(0));
     for (int i = 0; i < 10; i++)
     {
-        int Max = NULL;
-        int Min = NULL;
-        int Sum = 0;
+        unsigned int Max = NULL;
+        unsigned int Min = NULL;
+        unsigned long long int Sum = 0;
         Student_info sv = getInfor();
         insertNewStudent(dir1, dir2, dir3, dir4, sv);
         for (int j = 0; j < 10; j++)
@@ -927,7 +929,7 @@ void TimeComplexityCheckSecurity()
             }
             Sum += duration.count();
         }
-        int Mean = Sum / 10;
+        unsigned int Mean = Sum / 10;
         output << i <<"       " << Min << "       " << Mean << "      " << Max << endl;
         std::cout << "Min: " << Min << endl;
         std::cout << "Mean: " << Mean << endl;
@@ -954,7 +956,7 @@ int main()
     //TimeComplexityIsBlockChainValid();
 
     //TimeComplexityCompareFile(1250);   
-    //TimeComplexityCheckSecurity();
+    TimeComplexityCheckSecurity();
     
     return 0;
 }
